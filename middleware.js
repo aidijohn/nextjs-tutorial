@@ -13,15 +13,15 @@ export const config = {
 ///////////////////////////////////
 //localhost:3000/about
 
-export function middleware() {
-  //console.log('hello world');   //console log
+// export function middleware() {
+//   //console.log('hello world');   //console log
 
-  //json response
-  return Response.json({
-    msg:'hello there'
-  });
-}
+//   //json response
+//   return Response.json({
+//     msg:'hello there'
+//   });
+// }
 
-export const config1 = {
-  matcher: ['/about'],
-};
+// export const config1 = {
+//   matcher: ['/about'],
+// };
